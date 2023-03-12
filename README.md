@@ -60,6 +60,9 @@ test:
    @echo "Testing my amazing new adapter"
    @./my_test_harness
    
+   
+   Edited last line
+   
 ```
 
 Voltha's test framework will execute the FIRST Target in the submake file as the unit test function.  It may include as many dependencies as needed, such as using a different python framework for testing (pytest, unittest, tox) or even alternate languages (go, rust, php).
